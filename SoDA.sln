@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap", "OpenWeatherMap\OpenWeatherMap.csproj", "{222E2C37-0FCC-425E-91AB-AF5216A6C2CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest_OpenWeatherMap", "MSTest_OpenWeatherMap\MSTest_OpenWeatherMap.csproj", "{8C17A997-B1DA-4B54-9B70-E6B306396DCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{222E2C37-0FCC-425E-91AB-AF5216A6C2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222E2C37-0FCC-425E-91AB-AF5216A6C2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222E2C37-0FCC-425E-91AB-AF5216A6C2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C17A997-B1DA-4B54-9B70-E6B306396DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C17A997-B1DA-4B54-9B70-E6B306396DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C17A997-B1DA-4B54-9B70-E6B306396DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C17A997-B1DA-4B54-9B70-E6B306396DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
