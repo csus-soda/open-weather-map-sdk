@@ -7,7 +7,7 @@ namespace MSTest_OpenWeatherMap {
 	public class UnitTest1 {
 		[TestMethod]
 		public void ValidInitialization() {
-			var config = new OpenWeatherMapConfiguration.Builder("").Build();
+			var config = new OpenWeatherMapConfiguration.Builder(UnitTestUtil.ApiKey).Build();
 
 			OpenWeatherMap.Initialize(config);
 
